@@ -1,0 +1,48 @@
+a {
+ color: #ff0000;
+  text-decoration: none;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #F7F744;
+ text-decoration: underline;
+}
+
+header{
+  color: #FA55FA;
+  background-color: #55FADF;
+}
+
+nav{
+  color: #FA55FA;
+  background-color: #0AEAFA;
+}
+
+main{
+  color: #3848FF;
+  background-color: #FFEB38;
+}
+footer{
+  color: #2AF8DC;
+  background-color: #FF0000;
+
+}
+
+
+#divexample {
+  color: #0000FF;
+  background-color: #00FFFF;
+}
+
+.spanstyle {
+  color: #FF0000;
+}
+
+.specialp {
+  color: #FFFF00;
+  background-color: #0000FF;
+}
