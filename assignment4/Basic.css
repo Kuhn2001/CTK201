@@ -1,0 +1,43 @@
+
+
+.textcenter {
+text-align: center;
+}
+
+
+main{
+  font:  20px Arial, Helvetica, sans-serif;
+}
+nav{
+    font:  20px Arial, Helvetica, sans-serif;
+}
+
+footer{
+    font:  20px Arial, Helvetica, sans-serif;
+}
+
+header{
+  font-style: italic;
+  font-weight: normal;
+  color: #F98705;
+}
+
+.textjustify{
+  text-align: justify;
+
+}
+
+.imgbox{
+  border: 5px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0 0;
+  width: 200px;
+}
+
+body{
+background-color: #cccccc;
+background-image: url(Banana.jpg);
+background-repeat: repeat;
+background-position: top right;
+}
