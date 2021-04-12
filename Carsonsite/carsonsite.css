@@ -96,6 +96,7 @@ main{
   display: grid;
     grid-template-columns: repeat(12, 1fr);
       grid-column-gap: 24px;
+      font-family: 'New Tegomin', serif;
 }
 section{
   grid-column: span 6;
@@ -156,3 +157,34 @@ footer a{
 footer a:hover{
   color: grey;
 }
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin-left: 250px;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
